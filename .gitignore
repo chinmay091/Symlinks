@@ -1,0 +1,38 @@
+# Go Backend
+# Ignore the compiled executable binary
+/backend/backend
+/backend/backend.exe
+
+# Node.js / Vite / Electron UI
+# Ignore dependencies, build/package output, and cache directories
+/ui/node_modules/
+/ui/dist/
+/ui/dist-electron/
+/ui/release/
+/ui/.vite/
+
+# Logs
+# Ignore log files from various package managers and general logging
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Local Environment Variables
+# Never commit sensitive API keys or local settings
+.env
+.env.local
+.env.*.local
+
+# Operating System & Editor Specific Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+dockerfile
+ui.zip
